@@ -11,6 +11,7 @@
     margin: 40px;
   
     perspective: 1000px;
+    position: relative;
   }
   
   /* .flip-card */
@@ -336,4 +337,5 @@
   {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
   }

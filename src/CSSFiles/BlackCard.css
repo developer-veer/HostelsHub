@@ -11,6 +11,7 @@
      #333f41, #334042, #324143, #324344, #314445,
       #2e4546, #2c4747, #294848, #234a49, #1c4c4a,
        #144d4b, #074f4b);
+       background-image: url('../../public//img/bg.png');
 }
 
 #welcome-div
@@ -20,6 +21,7 @@
     border-radius: 15px;
     margin-left: 20rem;
     position: relative;
+   
 }
 
 #search-div{

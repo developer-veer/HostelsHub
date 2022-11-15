@@ -8,7 +8,8 @@
         position: absolute;
     }
     #navBar{
-        position: relative;
+        position: fixed;
+        top: 0;
     }
     
     .btn{
@@ -71,4 +72,5 @@
 #carousel-div
 {
     border: 3px solid black;
+    margin-top: 5rem;
 }
