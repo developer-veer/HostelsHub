@@ -23,7 +23,8 @@ const Nav = () => {
             </div>
           </Link>
           {/* Contact us Button */}
-
+           
+           <Link to='/contact'>
           <div class="container">
             <div class="row">
               <div class="col-sm-3">
@@ -33,9 +34,10 @@ const Nav = () => {
               </div>
             </div>
           </div>
-
+          </Link>
           {/* About */}
 
+          <Link to='/about'>
           <div class="container">
             <div class="row">
               <div class="col-sm-3">
@@ -45,6 +47,18 @@ const Nav = () => {
               </div>
             </div>
           </div>
+          </Link>
+          <Link to="/admin">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-3">
+                  <a class="btn btn-lg" href="#">
+                    <span className="text">Administration</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Link>
 
           {/* Signin Button */}
           <Link to="/signIn">
@@ -58,6 +72,10 @@ const Nav = () => {
               </div>
             </div>
           </Link>
+
+         
+
+
 
           {/* parent div */}
         </div>

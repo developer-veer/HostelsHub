@@ -3,6 +3,7 @@
 import HostelCards from "./HostelCards";
 import '../CSSFiles/BlackCard.css';
 import Search from "./Search";
+import { Footer } from "./Footer";
 
 const Home = ()=>
 {
@@ -12,7 +13,8 @@ const Home = ()=>
     
        <Search/>
        <HostelCards/>
-       <HostelCards/>
+      
+       <Footer/>
     
 
         </div>
